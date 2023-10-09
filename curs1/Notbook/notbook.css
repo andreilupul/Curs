@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+   
+    font-family: 'Pixelify Sans', cursive;
+   
+}
+
+body{
+    background-color: #331D2C;
+   
+}
+
+.h1{
+  color: #FDCB9E;
+  text-align: center;
+  background-color:#3f2437b6;
+  /* width: 170px; */
+  border-bottom: #FDCB9E solid;
+  border-left: #FDCB9E solid wi;
+}
+
+.text{
+    
+    color:#FDCB9E;
+    background-color: #3F2E3E;
+    width: 300px;
+     border: rgb(255, 255, 255);
+     font-size: 16px;
+ 
+}
+
+.botten{
+    color: #FDCB9E;
+    background-color: #3F2E3E;
+    border-radius: 50px;
+    transition: transform 0.2s ease-in-out;
+    font-size: 20px;   
+}
+
+.botten:hover{
+background-color: #5c3759;
+    transform: scale(0.95); 
+}
+
+.ol{
+    color:#FDCB9E;
+
+    position: relative;
+    left:100px;
+}
+
+.divcenter{
+    display: flex;
+    justify-content: center;
+}
+
+.divcenter1{
+     display: flex;
+      justify-content: center;
+      position: relative;
+      right: 130px;
+}
+
+.divcenter2{
+    display: flex;
+  justify-content: center;
+  position: relative;
+  right: 200px;
+  top: -200px;
+}
+
+.texarea{
+   
+    color: #FDCB9E;
+    background-color: #3F2E3E;
+    /* height: 1009px; */
+    /* font-size: 16px; */
+    padding: 7px;
+    /* border-radius: 10px; */
+    outline: none;
+   line-height: 1.4;
+   transition: all 0.2;
+   /* font-family: Pixelify Sans; */
+}
+.texarea:hover{
+cursor: pointer;
+background-color: #5c3759;
+}
+
+::placeholder{
+ color:#fdca9e88;
+}
+
+.p{
+    color: #FDCB9E;
+    border: 2px solid #FDCB9E;
+    border-radius: 30px;
+    width: 160px;
+    padding: 12px 12px 12px 12px;
+     margin: auto;
+    
+
+}
+
+.tabel{
+    outline: none;
+    display: flex; /* Folosim display flex pentru a centra conținutul */
+    justify-content: center; /* Centrare pe orizontală */
+    align-items: center; /* Centrare pe verticală */
+    
+}
+

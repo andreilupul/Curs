@@ -1,0 +1,177 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+/*  trebuie sa stie position relativ cat de mare este bodyul */
+/* vh inseamna viu port heith se refera la cat de mult vede o persoana browserul */
+/* body{
+    height: 100vh;
+} */
+
+/* .link:link{
+    color: red;
+} */
+
+/* cand stai cu mausul pe link
+.link:hover{
+    color: aqua;
+} */
+
+/* ce se intampla cand dai clic pe link
+.link:active{
+    color: blueviolet;
+} */
+
+/* .test{
+    color: rgb(42, 216, 42);
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center; 
+} */
+/* .test:hover{
+    color: red;
+} */
+
+/* .test1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 10px solid black;
+
+    background-color: red;
+    max-width: 50px;
+    max-height: 150px;
+
+} */
+
+/* .test2{
+    width: 50px;
+    height: 150px;
+    background-color: aquamarine;
+    border: 5px solid red;
+    padding: 10px 0px 0px ;
+
+    ca sa centrezi un obiect
+    margin-inline:auto;
+
+
+    muti un text mai jos
+    position: relative; top: 50%;
+} */
+
+/* table,th,td{
+    border: 1px solid blue;
+}
+
+th,td{
+    border-bottom: 5px solid red;
+}
+
+.tabel{
+    border-collapse: collapse;
+}
+
+td:nth-child(even){
+    background-color: aqua;
+}
+
+tr:hover{
+    background-color: green;
+} */
+
+
+
+
+/* table{
+    border: 1px solid blue;
+
+}
+table{
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: aqua;
+} */
+
+
+/* .ul{
+    list-style-type: upper-roman;
+} */
+
+/* .ol1{
+    list-style-position: inside;
+    list-style: square inside;
+}
+
+.ol2{
+    list-style-position: outside;
+} */
+
+.a{
+    width: 50px;
+    height: 50px;
+     background-color: red;
+}
+
+.b{
+    width: 50px;
+    height: 50px;
+     background-color: rgb(30, 189, 162);
+
+     /* cand scrolezi va ramane unde este  */
+
+     /* position: fixed;
+     top: 20px;
+     left: 40px; */
+     /* position: relative;
+     left: 80px; */
+     /* top: 20px; */
+}
+
+
+/* position stycky se foloseste ca un element sa vine dupa tine cand dai scrol */
+
+
+.parent{
+    position: relative;
+    top: 59px;
+    left: 59px;
+    width: 59px;
+    height: 59px;
+    background-color: aqua;
+}
+
+.child{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+}
+
+.content{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.center{
+    background-color: aqua;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.botten{
+    background-color: blueviolet;
+    position: absolute;
+    left: 49px;
+    top: 70px;
+    /* visibility: hidden; */
+    /* display: none; */
+}
+

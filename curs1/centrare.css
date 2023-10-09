@@ -1,0 +1,54 @@
+*{
+    color: red;
+}
+body{
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', cursive;
+    font-family: 'Young Serif', serif;
+}
+
+.test1{
+    background-color: blueviolet;
+    width:50px;
+    margin-inline:auto;
+}
+
+.test2{
+    width: 40px;
+    background-color: aqua;
+}
+
+.placeholder{
+    color: wheat;
+   background-color: blue;
+   position: relative;
+   left: 179px;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    /* right: 130px; */
+}
+
+.p{
+    /* color: blue; */
+    /* text-decoration: none; */
+    /* text-decoration: line-through; */
+    /* text-decoration: overline; */
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize; */
+    /* text-align: center; */
+    /* text-align: end; */
+    /* text-align: justify; */
+    text-indent: 50px;
+    /* letter-spacing: 25px; */
+    /* line-height: 39px; */
+    text-shadow: 20px 40px 2px ;
+    
+}

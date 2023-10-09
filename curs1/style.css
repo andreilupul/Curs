@@ -1,0 +1,96 @@
+
+.red{
+    border-bottom: 2px solid black;
+    border-top: 2px dashed yellow;
+    border-left: 2px solid gray;
+    border-right: 2px dotted green;
+background-color: brown; 
+ width: 40px;}
+
+.blue{
+
+border: 4px solid rebeccapurple;
+background-color: blue;
+width:50px;}
+
+#yellow{
+border-bottom: 2px solid black;
+background-color: rgb(195, 214, 17);
+width: 40px;}
+
+
+.test{
+    color: rgb(199, 25, 69);
+background-color: #1e88a8;
+width: 40px;
+height: 49px;
+ } 
+
+  /* body {
+    background-image: url(img/WitheredRose_Zeri-inline.jpg);
+    background-size: 140%;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-size: contain;
+     background-size: cover;
+  } */
+
+  body{
+    background-image:url(img/Untitled.png);
+    background-repeat: repeat-y;
+    background-size: 250px 30px;
+  }
+
+  /* body{
+    background-image:url(img/WitheredRose_Zeri-inline.jpg);
+    background-repeat: repeat-y;
+    background-size: 250px 30px;
+  } */
+
+.div{
+    border: 4px solid red;
+    width: 70px;
+    height:70px;
+}
+.p{
+    color: white;
+        border-color: black;
+        border-top: 2px dotted ;
+        border-right: 20px dotted ;
+        border-bottom: 6px dotted ;
+        border-left: 6px dotted ;
+        color: white;
+        
+    }
+    
+.Margine{
+    color: rgb(118, 74, 163);
+    border: 5px solid black;
+    /* margin: 100px 50px 50px 60px; */
+    
+    /* width: 200px;
+   margin-inline: auto; */
+
+}
+
+.hey{
+    border:solid;
+    border-left: 50px;
+}
+.hey1{
+  border: solid red;
+  margin: auto;
+ 
+}
+.hey2{
+    border: solid red;
+   border-radius: 50px; 
+}
+
+/* padding iti muta textul cati px ai pus din border */
+.testt{
+    border: 4px solid red;
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px 10px 10px;
+}

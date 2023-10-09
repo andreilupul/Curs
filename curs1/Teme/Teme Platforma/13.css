@@ -1,0 +1,26 @@
+
+
+
+ /* am folosit un pic chat gbt mi se pare mult m-ai 
+      interesant asa decat sa il las ascuns permanent  */
+
+
+
+.hidden{
+    /* visibility: hidden; */
+
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hidden:hover{
+    opacity: 1; 
+   transition: opacity 0.3s;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}

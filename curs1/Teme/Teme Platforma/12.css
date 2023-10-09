@@ -1,0 +1,14 @@
+
+.div1{
+    display: flex;
+    justify-content: center;
+}
+
+.div2{
+    position: relative;
+    right: -800px;
+    top:600px;
+    
+}
+
+
