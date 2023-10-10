@@ -1,0 +1,82 @@
+*{
+    /* facem ca boxurile sa aiba un margin si un padding */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+}
+
+p{
+   display: inline-block;
+   height: 150px;
+   width: 150px;
+   line-height: 150px;
+   text-align: center;
+   vertical-align: middle;
+
+}
+
+.div1{
+    background-color: aqua;
+
+}
+
+.div2{
+    background-color: blueviolet;
+}
+
+.div3{
+    width: 50%;
+    text-align: center;
+    border: 1px solid blue;
+    position: relative;
+    left: 25%;
+    top: 25vh; 
+}
+
+.nav{
+
+    /* Si folosim stichi ca sa urmareasca bara de sus cand se da scrol */
+    
+    /* margin: 0;
+    padding: 0; */
+    /* width: 200px;
+    max-height: 20px; */
+
+   
+    list-style-type: none;
+    background-color: rgb(38, 68, 68);
+    overflow: hidden; 
+    position: sticky;
+    top: 0; 
+   
+
+}
+
+.nav li{
+
+    float: left;
+    /* margin-left: 3px; */
+    display: block;
+
+    
+}
+
+.nav li a{
+    display: block;
+    /* text-align: center; */
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    
+}
+
+.lii{
+    margin-left: 40%;
+}
+
+
