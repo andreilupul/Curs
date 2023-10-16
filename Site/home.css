@@ -1,0 +1,96 @@
+body{
+    background-color: #350d2f;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.Nav{
+    list-style-type: none;
+    background-color: #52057B;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+
+    outline: none;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+
+a{
+    color: white;
+  
+}
+
+.Nav li{
+    float: left;
+    display: block;
+      
+  
+}
+
+.Nav li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 3px 10px;
+    
+    
+}
+
+.Andrei{
+    width: 500px;
+}
+
+.Biografie{
+    color: white;
+    margin-inline: auto;
+
+    outline: none;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    
+}
+.Andrei{
+    color: white;
+    margin-inline: auto;
+    outline: none;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.p1{
+    color: white;
+    margin-inline: auto;
+    outline: none;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.p2{
+    color: white;
+    margin-inline: auto;
+    outline: none;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.Andrey{
+    color: white;
+    width: 500px;
+}
+
+.img{
+    width: 500px;
+    margin-inline:auto;
+}
