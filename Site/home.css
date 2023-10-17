@@ -1,5 +1,5 @@
 body{
-    background-color: #350d2f;
+    background-color: #262424;
 }
 
 
@@ -10,23 +10,23 @@ body{
     
 }
 
-.Nav{
+.nav1{
     list-style-type: none;
-    background-color: #52057B;
     overflow: hidden;
     position: sticky;
-    top: 0;
+    top: 20px;
 
-    outline: none;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    width: 180px;
+    background-color: #35A29F;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
 }
-
 
 
 a{
     color: white;
+   
+
   
 }
 
@@ -47,12 +47,25 @@ a{
 }
 
 .Andrei{
+    font-size: 20px;
+    color: white;
+    background-color: #35A29F;
+    width: 180px;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+}
+
+.Biografie1{
+    background-color: #35A29F;
     width: 500px;
+    margin-inline: auto;
+    border-radius: 200px;
 }
 
 .Biografie{
     color: white;
     margin-inline: auto;
+    font-size: 100px;
 
     outline: none;
     display: flex; 
@@ -60,37 +73,28 @@ a{
     align-items: center; 
     
 }
-.Andrei{
-    color: white;
-    margin-inline: auto;
-    outline: none;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-}
+
+
+
 .p1{
+    margin-top: 20px;
+    font-size: 20px;
     color: white;
-    margin-inline: auto;
-    outline: none;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    background-color: #35A29F;
+    width: 500px;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+
 }
-.p2{
+.tabel{
+    margin-top: 20px;
+    font-size: 20px;
     color: white;
-    margin-inline: auto;
-    outline: none;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    background-color: #35A29F;
+    width: 180px;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
 }
 
-.Andrey{
-    color: white;
-    width: 500px;
-}
 
-.img{
-    width: 500px;
-    margin-inline:auto;
-}
+
