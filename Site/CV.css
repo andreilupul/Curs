@@ -1,8 +1,6 @@
 body{
     background-color: #262424;
-      
- }
- 
+}
 
 *{
     box-sizing: border-box;
@@ -10,44 +8,142 @@ body{
     padding: 0;
     
 }
-.Nav{
+
+.nav1{
     list-style-type: none;
-    background-color: #52057B;
     overflow: hidden;
     position: sticky;
-    top: 0;
+    top: 20px;
+    margin-top: 20px;
 
-    outline: none;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    width: 180px;
+    background-color: #35A29F;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
 }
+
+
 a{
     color: white;
-  
 }
 
 .Nav li{
     float: left;
     display: block;
-
+      
+  
 }
+
 .Nav li a{
     display: block;
     text-decoration: none;
     color: white;
-    padding: 3px 10px;
+    padding: 3px 10px; 
 }
 
-.Tabel {
-    color: white;
-    margin: 10px;
-}
+/* Nav bar */
 
-h2{
-    color: white;
-    margin: 10px;
+.container{
+    width: 80%;
+    display: block;
+    margin-inline: auto;
+    margin-top: 20px;
+}
+.container img{
+    height: 250px;
+    border-radius: 200px;
+    float: left;
+}
+.about{
+    float: left;
+    max-width: 300px;
+    padding-top: 100px;
+    margin-left: 150px;
+}
+.containerCV{
+    width: 90%;
+    /* margin-inline: auto; */
+    /* margin-top: 20px; */
+    /* padding: 10px; */
     
 }
+.myName{
+    background-color: #929292;
+    height: 150px;
+    border-radius: 100px;
+    margin-top: 40px;
+}
+.cvTitle{
+    position: relative;
+    left: 35%;
+    top: 20px;
+    color: #ead7c8;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.basicInfo{
+    float: left;
+    background-color: rgb(234, 215, 200);
+    width: 30%;
+    height: 1300px;
+    position: relative;
+    margin-top: -190px;
+    /* margin-left: 25px; */
+    padding: 20px;
+    /* border-top-left-radius: 30px 15px; */
+}
+.basicInfoTitle{
+    width: 100%;
+    font-size: 25px;
+    border-bottom: 2px solid black;
+    margin-top: 30px;
+}
+.basicInfo img{
+    height: 200px;
+    border: 4px solid #929292;
+    border-radius: 300px;
+    display: block;
+    margin-inline: auto;
+}
+.info-list li{
+    padding: 10px;
+}
+.content{
+    padding-left: 450px;
+}
+.row{
+    margin-top: 50px;
+}
+.rowIcon{
+    margin-right: 15px;
+    color: #929292;
+    float: left;
+}
+.rowTitle{
+    letter-spacing: 0.5rem;
+    font-size: 30px;
+}
+.rowText{
+    padding: 10px;
+    margin: 20px 20px 0px 25px;
+    border-left: 3px solid #ead7c8;
+}
+.tableContent{
+    font-size: 20px;
+    margin: 20px 20px 0px 25px;
+    border-left: 3px solid #ead7c8;
+}
+.tableContent tr td{
+    padding: 5px;
+}
+
+.main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 

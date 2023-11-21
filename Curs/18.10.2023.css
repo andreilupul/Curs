@@ -1,0 +1,170 @@
+/* 
+@media only screen and (max-width:700px) {
+    
+    img{width: 500px;}
+
+    .left{
+        background-color: red;
+        float: left;
+    }
+    
+    .right{
+        background-color: black;
+        
+        float: right;
+    }
+} */
+
+/* Media queri */
+
+
+
+
+/* .left{
+    background-color: rgb(132, 50, 209);
+    width: 100%;
+    height: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+
+
+}
+
+.top{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.right{
+    background-color: rgb(33, 172, 63);
+    width: 100px;
+    height: 100px;
+}
+
+.top1{
+    background-color: rgb(41, 144, 185);
+    width: 100px;
+    height: 100px;
+}
+
+.top2{
+    background-color: rgb(180, 190, 35);
+    width: 100px;
+    height: 100px;
+}
+
+.top3{
+    background-color: rgb(15, 7, 7);
+    width: 100px;
+    height: 100px;
+} */
+
+/* Exerciti */
+
+/* .main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.menu{
+    background-color: blue;
+    width: 20vw;
+}
+
+.content{
+    background-color: aquamarine;
+    width: 80vw;
+}
+
+.more{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    width: 100vw;
+    height: 100px;
+    background-color: red;
+} */
+
+/* exercitii */
+
+/* img{
+    width: 100px;
+    height: 100px;
+border-radius: 400px;
+}
+
+.Main{
+    display: flex;
+    justify-content: center;
+}
+
+.Andrei{
+    margin-left: 20px;
+    
+} */
+
+
+/* ........................... */
+/* 
+.main{
+    width: 800px;
+    height: 100px;
+    display: flex;
+    border: 1px solid black;
+}
+
+.div1{
+    background-color: rgb(15, 88, 27);
+    flex-grow: 1;
+    order: 4;
+    transform: rotate(-45deg);
+    border-radius: 60px;
+}
+.div2{
+    background-color: rgb(0, 162, 255);
+    flex-grow: 2;
+    order: 3;
+}
+.div3{
+    background-color: rgb(255, 0, 157);
+    flex-grow: 3;
+    order: 2;}
+.div4{
+    background-color: rgb(38, 0, 255);
+    flex-grow: 4;
+    order: 1;
+} */
+/* css3 */
+.main{
+    width: 60vw;
+    height: 60vh;
+    /* background-image: linear-gradient(to top , green 20%,red); */
+    /* transition: width 5s; */
+    transition: rotate 5s;
+    /* transition: background-color 8s; */
+    background-color: red;
+
+    /* box-shadow: 100px 100px red; */
+
+    /* transform: scaley(10%); */
+    /* transform: translate(50px,200px); */
+    /* transform: rotate(30deg); */
+}
+
+div:hover{
+    /* width: 400px; */
+    background-color: aqua;
+    rotate: 360deg;
+}
+
+
+
+
+

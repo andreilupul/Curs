@@ -1,0 +1,67 @@
+
+
+
+body{
+    background-color: rgba(35,39,68,255);
+
+    display: grid;
+    place-items: center;
+}
+
+
+.tableta{
+    display: none;
+}
+
+.Descktop{
+   
+border-radius: 20px ;
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.Subscribe{
+    background-color: white;
+    display: flex;
+justify-content: space-between;
+    height: 370px;
+    width: 690px;
+
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Subscribe-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Subscribe-left .Subscribe-right{
+    flex: 1;
+}
+
+.Subscribe-Email{
+    gap: 10px;
+display: flex;
+flex-direction: column;
+}
+
+.Subscribe-button{
+margin-top: 10px;
+margin-bottom: 10px;
+color: white;
+ background-color:rgba(35,39,68,255);
+ padding: 15px;
+width: 100%;
+border-radius: 5px;
+}
+
+.Subscribe-titel{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
